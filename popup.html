@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>North Star</h1>
+    
+    <div class="tabs">
+      <button class="tab-button active" data-tab="main">Main</button>
+      <button class="tab-button" data-tab="analytics">Analytics</button>
+    </div>
+    
+    <!-- Main Tab -->
+    <div id="main-tab" class="tab-content active">
+      <div class="section">
+        <label for="interests">مواضيع اهتمامي:</label>
+        <div class="keyword-input-container">
+          <input type="text" id="keyword-input" placeholder="أدخل كلمة مفتاحية ثم اضغط Enter">
+          <button id="add-keyword" class="small-button">+</button>
+        </div>
+        <div id="keyword-tags" class="keyword-tags"></div>
+        <small style="color: rgba(255,255,255,0.7); font-size: 10px;">
+          فقط المنشورات التي تحتوي على هذه الكلمات ستظهر بوضوح. باقي المنشورات سيتم طمسها.
+        </small>
+      </div>
+      
+      <div class="button-group">
+        <button id="save">حفظ الإعدادات</button>
+        <button id="refresh" class="secondary">تحديث الكلمات وتحديث الصفحة</button>
+        <button id="disconnect" class="danger">فصل الإضافة</button>
+      </div>
+    </div>
+    
+    <!-- Analytics Tab -->
+    <div id="analytics-tab" class="tab-content">
+      <div class="stats-overview">
+        <div class="stat-item">
+          <div class="stat-label">المنشورات المهمة:</div>
+          <div class="stat-value" id="savedCount">0</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">المنشورات المطموسة:</div>
+          <div class="stat-value" id="blockedCount">0</div>
+        </div>
+      </div>
+      
+      <div class="button-group">
+        <button id="analyze-desired">تحليل المحتوى المطلوب</button>
+        <button id="analyze-undesired">تحليل المحتوى غير المرغوب</button>
+        <!-- زر جديد خاص للمحتوى غير المرغوب به -->
+        <button id="analyzeDistractionOnly" class="danger">تحليل المحتوى المشتت فقط</button>
+        <button id="endSession" class="secondary">إنهاء الجلسة وتلخيص المحتوى</button>
+      </div>
+      
+      <div id="analytics-results" class="analytics-results"></div>
+    </div>
+    
+    <div id="status" class="status"></div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "North Star",
+  "version": "1.5", 
+  "description": "Improve focus on social media by filtering content and providing summaries",
+  
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "https://*.twitter.com/*",
+    "https://*.facebook.com/*",
+    "https://*.instagram.com/*",
+    "https://*.linkedin.com/*",
+    "https://*.reddit.com/*"
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "North Star"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.twitter.com/*",
+        "https://*.facebook.com/*",
+        "https://*.instagram.com/*",
+        "https://*.linkedin.com/*",
+        "https://*.reddit.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  }
+}
