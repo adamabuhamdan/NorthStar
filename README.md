@@ -1,9 +1,9 @@
 🌟 North Star - Social Media Focus Assistant
-
+اختيار الموضوع المهم
 <img width="837" height="624" alt="Screenshot 2025-09-27 134546" src="https://github.com/user-attachments/assets/8b7c5d56-b017-4eaf-bd3f-a7586203c63b" />
-
+استمرار التصفح
 <img width="769" height="590" alt="Screenshot 2025-09-27 134516" src="https://github.com/user-attachments/assets/012d3556-6d3d-4d41-aa64-6ac3abd3c27f" />
-
+خانة ال ai والتحليل 
 
 <img width="986" height="632" alt="Screenshot 2025-09-27 134606" src="https://github.com/user-attachments/assets/b3985be4-9f29-435b-8f9b-a44a32ac35ed" />
 
