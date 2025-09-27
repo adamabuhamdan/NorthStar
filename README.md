@@ -1,14 +1,19 @@
 🌟 North Star - Social Media Focus Assistant
-<div align="center">
-https://img.shields.io/badge/North%2520Star-AI%2520Powered%2520Focus-blue?style=for-the-badge&logo=stars
-https://img.shields.io/badge/Version-1.5.0-green?style=for-the-badge
-https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge
 
-قم بتحويل وقتك على وسائل التواصل الاجتماعي إلى استثمار ذكي 🚀
+<img width="837" height="624" alt="Screenshot 2025-09-27 134546" src="https://github.com/user-attachments/assets/8b7c5d56-b017-4eaf-bd3f-a7586203c63b" />
 
-المميزات • التثبيت • الاستخدام • التكامل • التطوير
+<img width="769" height="590" alt="Screenshot 2025-09-27 134516" src="https://github.com/user-attachments/assets/012d3556-6d3d-4d41-aa64-6ac3abd3c27f" />
 
-</div>
+
+<img width="986" height="632" alt="Screenshot 2025-09-27 134606" src="https://github.com/user-attachments/assets/b3985be4-9f29-435b-8f9b-a44a32ac35ed" />
+
+
+
+
+
+[NORTH STAR.pdf](https://github.com/user-attachments/files/22573270/NORTH.STAR.pdf)
+[North-Star 2.pptx](https://github.com/user-attachments/files/22573282/North-Star.2.pptx)
+
 📖 نظرة عامة
 North Star هو إضافة متصفح ذكية تستخدم الذكاء الاصطناعي لمساعدتك على التركيز على المحتوى المهم وتقليل المشتتات على وسائل التواصل الاجتماعي. باستخدام تقنية Gemini AI من Google، تقوم الإضافة بتحليل المحتوى وتصفية المنشورات غير المرغوبة وتقديم ملخصات ذكية.
 
