@@ -69,7 +69,7 @@ Track in real-time how many posts have been saved vs. filtered — watch your fo
 - **AI Engine:** Google Gemini AI
 - **Extension:** Chrome / Edge (Manifest V3)
 - **Backend:** Python 3.8+
-- **Runtime:** Node.js (dev environment)
+- **Runtime:** Node.j (dev environment)
 
 ---
 
@@ -137,13 +137,6 @@ This project is in its **early development stage**. Here's what's coming:
 
 ---
 
-## 👥 Team
-
-| Name | Role |
-|------|------|
-| **Adam Abu Hamdan** | Founder & Lead Developer |
-| **Ahmad Ahmad** | Engineer |
-| **Abdullah Al-Qurainawi** | Engineer |
 
 ---
 
